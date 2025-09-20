@@ -5,7 +5,7 @@ SELECT COUNT(*) TotalCanciones
 	WHERE CHARINDEX('JUANES', C.Nombre) > 0
 
 
--- b) interpretaciones que se tienen de la canción "Lluvia" y sus diferentes ritmos
+-- b) interpretaciones que se tienen de la canciÃ³n "Lluvia" y sus diferentes ritmos
 SELECT CA.Titulo, I.Nombre, R.Ritmo
 	FROM Interpretacion IT
 		JOIN Cancion CA ON IT.IdCancion = CA.Id
